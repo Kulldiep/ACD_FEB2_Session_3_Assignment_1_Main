@@ -1,0 +1,25 @@
+
+table.tab3 {
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+border-bottom: none;
+}
+.tab3, td, th {
+border: 1px solid black;
+}
+.tab3 tr td:nth-child(1){
+  width: 180px;
+}
+.tab3 tr:nth-child(2){
+  font-weight: bold;
+}
+.tab3 tr:last-child{
+border-bottom-style: hidden;
+}
+.tab3 tr td:nth-child(2) {
+  width: 110px;
+} 
+.tab3 tr:last-child td {
+  border-bottom: 0;
+}
